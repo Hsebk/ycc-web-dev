@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
     res.redirect('/index.html')
 })
 
+app.get('/login', (req, res) => {
+  res.redirect('/login1.html')
+})
+
 app.post('/signin', (req, res) => {
     res.send('Вход выполнен!')
 })
